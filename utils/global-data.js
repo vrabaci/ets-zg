@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Next.js Blog Theme';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'Vrabac ' &copy; ' 2022';
+    : 'Vrabac © 2022';
 
   return {
     name,
